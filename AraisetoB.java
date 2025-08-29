@@ -3,13 +3,14 @@ import java.util.Scanner;
 public class AraisetoB{
 	public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);
+		int mult = 1;
 		System.out.print("Enter any number: ");
 		int a = sc.nextInt();
 		System.out.print("Enter the power of the number: ");
 		int b = sc.nextInt();
 		for(int i = 1; i <=b; i++){
-			int mult = a*a;
+			mult = mult*a;
 		}
-		System.out.println( a +  " raised to the power " + b "is: " mult);
+		System.out.println( a +  " raised to the power " + b + " is: " + mult);
 	}
 }

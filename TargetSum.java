@@ -4,11 +4,12 @@ public class TargetSum {
         Scanner sc = new Scanner(System.in);
         int arr[] = new int[5];
         int n = 0, target;
-        System.out.println("Enter the elements of the array:");
+        System.out.print("Enter the elements of the array:");
         for(int i = 0; i < 5; i++){
             arr[i] = sc.nextInt();
         }
         
+        System.out.print("Enter the target sum:");
         target = sc.nextInt();
         System.out.println("Expected Sum is: " + target);
         for(int i = 0; i < 5; i++){
